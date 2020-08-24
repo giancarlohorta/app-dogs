@@ -3,6 +3,7 @@ import { View, StyleSheet } from "react-native";
 import Login from "./Login";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import styles from "./styles/Styles";
 
 const Home = () => {
   return (
@@ -15,12 +16,3 @@ const Home = () => {
 };
 
 export default Home;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 3,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

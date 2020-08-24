@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, ImageComponent } from "react-native";
+import styles from "../styles/Styles";
 
 const Header = () => {
   return (
-    <View>
-      <Text>Header</Text>
+    <View style={styles.containerHeader}>
+      <Text style={styles.title}>Header</Text>
     </View>
   );
 };
